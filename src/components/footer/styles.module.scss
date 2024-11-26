@@ -1,0 +1,67 @@
+.footer {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "logo . . . ."
+      "address . company aboutUs media "
+      "legal . policy  . socialMedia";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    // justify-items: center;
+    padding-top: 45px;
+    padding-left: 80px;
+    h3 {
+      color: #666;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-left: 0;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+    .logo {
+      grid-area: logo;
+    }
+    .address {
+      grid-area: address;
+    }
+    .company {
+      grid-area: company;
+    }
+    .aboutUs {
+      grid-area: aboutUs;
+    }
+    .media {
+      grid-area: media;
+    }
+    .socialMedia {
+      grid-area: socialMedia;
+
+      a {
+        padding: 10px;
+      }
+    }
+    .legal {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: #666;
+      grid-area: legal;
+    }
+    .policy {
+      grid-area: policy;
+      a {
+        text-decoration: none;
+        color: #666;
+        padding: 10px;
+        justify-self: end;
+      }
+    }
+  }
+}

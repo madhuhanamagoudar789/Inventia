@@ -1,0 +1,58 @@
+.navbar {
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid #feb737;
+  background: linear-gradient(
+    69deg,
+    rgba(255, 255, 255, 0.43) 21.45%,
+    rgba(255, 255, 255, 0.68) 102.65%
+  );
+  backdrop-filter: blur(4px);
+  max-width: 90%;
+
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "logo . . links";
+    grid-template-rows: auto;
+    padding: 20px 40px;
+
+    .inventiaLogoIcon {
+      grid-area: logo;
+    }
+
+    .links {
+      grid-area: links;
+      justify-self: center;
+      gap: 32px;
+      display: flex;
+      flex-direction: row;
+
+      .offerings {
+        color: #222;
+        text-decoration: none;
+        align-content: center;
+      }
+
+      .lineSeparatorIcon {
+        height: 28px;
+        align-self: center;
+      }
+
+      .contactUs {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+
+        .contactUsChild {
+          height: 12px;
+          width: 12px;
+          align-self: center;
+        }
+      }
+    }
+  }
+}

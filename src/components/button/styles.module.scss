@@ -1,0 +1,44 @@
+.btn {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+
+  img {
+    margin-left: 8px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.btn_filled {
+  backdrop-filter: blur(78px);
+  border-radius: 8px;
+  background: linear-gradient(
+    57.16deg,
+    rgba(255, 255, 255, 0),
+    #fff 92.39%,
+    rgba(255, 255, 255, 0.91)
+  );
+  border: 1px solid #7b54bb;
+  box-sizing: border-box;
+  color: #f8f7f1;
+}
+
+.btn_unfilled {
+  width: fit-content;
+  backdrop-filter: blur(78px);
+  border-radius: 8px;
+  background: linear-gradient(68.54deg, rgba(255, 255, 255, 0), #fff 97.92%);
+  border: 1px solid #feb737;
+  color: #222;
+}

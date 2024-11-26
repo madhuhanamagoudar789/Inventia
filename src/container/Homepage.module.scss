@@ -1,0 +1,330 @@
+.homepage {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 24px;
+  overflow: hidden;
+  .heading {
+    font-size: 80px;
+    font-weight: 600;
+    text-align: right;
+    position: relative;
+    margin: 80px;
+
+    .sensible {
+      background: linear-gradient(45.02deg, #feb737, #edc5b8);
+      background-clip: text;
+      color: transparent;
+      padding-right: 80px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pharma {
+      padding-right: 160px;
+    }
+
+    .capsule {
+      position: absolute;
+      top: 24%;
+      left: 40%;
+    }
+  }
+  .wrapper {
+    margin-left: 80px;
+    .info {
+      max-width: 430px;
+      text-align: left;
+      padding-top: 60px;
+    }
+    .paradiv {
+      display: flex;
+      justify-content: start;
+      .button {
+        height: fit-content;
+      }
+      .ctaseconary {
+        margin-left: 40px;
+        align-content: center;
+        text-decoration: none;
+        color: inherit;
+        border-bottom: 2px dotted orange;
+      }
+    }
+  }
+
+  .nav {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 180px;
+    width: 90%;
+    backdrop-filter: blur(39px);
+
+    .navhleft {
+      background: #222;
+      color: #f8f7f1;
+      padding: 14px 24px;
+      border-radius: 12px 0 0 12px;
+    }
+
+    .navhright {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      padding: 14px 24px;
+      border-radius: 0 8px 8px 0;
+    }
+  }
+
+  height: fit-content;
+  z-index: 2;
+  .heading1 {
+    z-index: 2;
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 180px;
+    .line1 {
+      margin-left: 40px;
+    }
+    .highlight {
+      background: linear-gradient(45deg, #feb737 14.65%, #edc5b8 85.37%);
+      background-clip: text;
+      color: transparent;
+    }
+  }
+  .cards {
+    display: flex;
+    margin: 0 auto;
+    max-width: 90%;
+
+    .card1 {
+      margin-top: 220px;
+    }
+    .card2 {
+      margin-top: 160px;
+    }
+    .card3 {
+      margin-top: 80px;
+    }
+  }
+
+  .collabHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 160px;
+    .upperHeading {
+      text-transform: uppercase;
+      width: 100%;
+      margin: 0 auto;
+      text-align: start;
+      max-width: 60%;
+    }
+
+    .lowerHeading {
+      max-width: 60%;
+      text-align: left;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1.1;
+
+      .lowerHeadingChild {
+        background: linear-gradient(45deg, #feb737 14.65%, #edc5b8 85.37%);
+        background-clip: text;
+        color: transparent;
+      }
+    }
+  }
+
+  .mainCard {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 180px;
+    .Rcard1 {
+      position: absolute;
+      padding-bottom: 240px;
+      background-color: #666;
+      z-index: 1;
+      width: 100%;
+      border-radius: 20px;
+    }
+    .Rcard2 {
+      position: absolute;
+      background-color: #444;
+      padding-bottom: 180px;
+      z-index: 2;
+      top: 700px;
+      width: 90%;
+      border-radius: 20px;
+    }
+    .Rcard3 {
+      position: absolute;
+      background-color: #222;
+      z-index: 3;
+      top: 1200px;
+      width: 80%;
+      border-radius: 20px;
+    }
+  }
+
+  .partnerDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 180px;
+
+    .headings {
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1.1;
+      margin-right: 180px;
+      .lowerHeadingChild {
+        background: linear-gradient(45deg, #feb737 14.65%, #edc5b8 85.37%);
+        background-clip: text;
+        color: transparent;
+      }
+    }
+
+    .partnerImages {
+      div {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 80px;
+        img {
+          padding-bottom: 210px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .discoverDiv {
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+    background-color: #222;
+    color: #f8f7f1;
+    position: relative;
+
+    .headings {
+      text-align: right;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1.1;
+      margin: 100px;
+      .lowerHeadingChild {
+        background: linear-gradient(45.02deg, #7b54bb, #edc5b8);
+        background-clip: text;
+        color: transparent;
+      }
+    }
+
+    .discoverImg {
+      position: absolute;
+      top: 20%;
+      left: 40%;
+      text-align: center;
+
+      img {
+        width: 100%;
+        max-width: 660px;
+        object-fit: cover;
+      }
+    }
+
+    .infoSection {
+      padding-top: 60px;
+      max-width: 430px;
+      text-align: left;
+      margin-left: 160px;
+
+      .info {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .teamCollab {
+    width: 90%;
+    margin: 180px auto 0;
+    display: flex;
+    .headings {
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1.1;
+      flex: 2;
+      .upperHeading {
+        margin-left: 40px;
+      }
+      .lowerHeading {
+        background: linear-gradient(45deg, #feb737 14.65%, #edc5b8 85.37%);
+        background-clip: text;
+        color: transparent;
+      }
+      .info {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.18px;
+        max-width: 540px;
+      }
+    }
+    .button {
+      height: fit-content;
+      justify-content: end;
+    }
+  }
+  .teamSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding-bottom: 120px;
+
+    .div1,
+    .div2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .innovatorsDiv {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding-left: 240px;
+    align-content: center;
+    padding: 180px;
+
+    .upperHeading {
+      text-transform: uppercase;
+    }
+
+    .lowerHeading {
+      max-width: 60%;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1.1;
+
+      .lowerHeadingChild {
+        background: linear-gradient(45.02deg, #7b54bb, #edc5b8);
+        background-clip: text;
+        color: transparent;
+      }
+    }
+    .button {
+      width: fit-content;
+    }
+  }
+}

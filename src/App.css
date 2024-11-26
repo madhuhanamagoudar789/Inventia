@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alliance+No1:wght@400;500;600&display=swap");
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+:root {
+  font-family: "Alliance No1";
+  background: var(--Solids-Powder, #f8f7f1);
+}

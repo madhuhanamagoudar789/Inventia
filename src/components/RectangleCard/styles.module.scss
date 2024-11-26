@@ -1,0 +1,80 @@
+.rectangleDiv {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 20px;
+
+  .topSection {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    grid-template-areas: "head highlightNum";
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      grid-area: head;
+
+      .heading {
+        font-size: 28px;
+        font-weight: 600;
+      }
+
+      .subheading {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+    }
+
+    .horizontalLineWrapper {
+      .horizontalLine {
+        height: 1px;
+        background-color: #ffffff;
+      }
+    }
+
+    .highlightNum {
+      grid-area: highlightNum;
+      font-size: 36px;
+      font-weight: 700;
+      align-self: end;
+    }
+  }
+
+  .bottomSection {
+    display: flex;
+    justify-content: space-between;
+
+    .leftContent {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+
+      .information {
+        max-width: 400px;
+      }
+
+      .button {
+        width: fit-content;
+      }
+    }
+
+    .rightContent {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-shrink: 0;
+
+      .image {
+        overflow: hidden;
+        border-radius: 20px;
+        max-height: 300px;
+        padding-right: 60px;
+        padding-top: 60px;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.cards {
+  position: relative;
+  border-radius: 18px 0px 18px 18px;
+  width: 319px;
+  height: 340px;
+  border: 1px solid black;
+  text-align: left;
+
+  .image {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    right: 10px;
+  }
+  .heading {
+    position: absolute;
+    top: 120px;
+    padding: 15px;
+    max-width: 273px;
+  }
+  .content {
+    top: 220px;
+    position: absolute;
+    padding: 15px;
+  }
+}
